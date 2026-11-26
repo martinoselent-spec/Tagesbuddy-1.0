@@ -35,7 +35,7 @@ erkennen und nicht doppelt anlegen.
 Für jede relevante Information festhalten:
 - Art: Frist / Aufgabe / Termin / Info / ⚠️ Auffällig
 - Was genau, bis wann (Datum; bei errechneten Fristen „(errechnet)“), Quelle
-  (Konto + Absender + Betreff + Link), Priorität 🔴🟡🟢
+  (Konto + Absender + Betreff + Link), Priorität [DRINGEND]/[BALD]/[SPÄTER]
 - Vorgang (z. B. „Anwalt – Verfahren“, „Mobilfunkvertrag“), damit
   zusammengehörige Mails gebündelt werden.
 
@@ -60,7 +60,8 @@ Notiz zeigt, dass eine Aufgabe erledigt ist, diese als erledigt markieren.
    **Niemals absenden.**
 4. **Gedächtnis aktualisieren:** Neues Google Doc `Tagesbuddy – Gedächtnis` im
    Ordner `Tagesbuddy` nach [`../vorlagen/gedaechtnis.md`](../vorlagen/gedaechtnis.md)
-   anlegen. Danach die vorherige Version in den Papierkorb legen.
+   anlegen (Text-Upload, **ohne 4-Byte-Emojis**). Danach die vorherige Version
+   in den Papierkorb legen.
 5. **Briefing archivieren:** Google Doc `Briefing JJJJ-MM-TT` im Unterordner
    `Briefings` anlegen.
 
@@ -68,7 +69,7 @@ Notiz zeigt, dass eine Aufgabe erledigt ist, diese als erledigt markieren.
 - **E-Mail an den Nutzer selbst** (Gmail `send_message`, nur an die eigene
   Adresse) mit dem Briefing nach [`../vorlagen/briefing.md`](../vorlagen/briefing.md)
   als `htmlBody`. Betreff: `☀️ Tagesbuddy <Wochentag, TT.MM.>: <n> dringend, <m> Fristen`
-- **Push:** Wenn es 🔴-Punkte gibt, den letzten Satz der Antwort so formulieren,
+- **Push:** Wenn es [DRINGEND]-Punkte gibt, den letzten Satz der Antwort so formulieren,
   dass er als Push-Nachricht taugt, z. B. „🔴 Heute: Anwaltstermin 10:30;
   Frist Widerspruch morgen“.
 

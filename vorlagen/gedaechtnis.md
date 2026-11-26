@@ -8,7 +8,7 @@ Tagesbuddy – Gedächtnis
 Stand: <TT.MM.JJJJ HH:MM>  ·  Zuletzt verarbeitet: <ISO-Zeitstempel>
 
 1. FRISTEN (nach Datum sortiert)
-- [ ] <TT.MM.JJJJ> 🔴/🟡/🟢 <Was> – Vorgang: <…> – Quelle: <Konto, Absender, Betreff> – Kalender: ja/nein
+- [ ] <TT.MM.JJJJ> [DRINGEND]/[BALD]/[SPÄTER] <Was> – Vorgang: <…> – Quelle: <Konto, Absender, Betreff> – Kalender: ja/nein
 ...
 
 2. OFFENE AUFGABEN (ohne festes Datum)

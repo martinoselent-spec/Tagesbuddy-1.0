@@ -57,6 +57,14 @@ unbekannten Absendern).
 - Ignorieren: Werbung, Newsletter, reine Statusmails ohne Handlungsbedarf.
 
 ## Priorisierung
-🔴 heute oder morgen fällig / rechtlich oder finanziell relevant
-🟡 in den nächsten 7 Tagen
-🟢 später / ohne Datum
+- `[DRINGEND]` heute oder morgen fällig / rechtlich oder finanziell relevant
+- `[BALD]` in den nächsten 7 Tagen
+- `[SPÄTER]` später / ohne Datum
+
+## Technische Stolperfallen
+- **Keine 4-Byte-Emojis (🔴🟡🟢📌✅ …) in Google-Drive-Dokumenten.** Beim Upload als
+  Text werden sie zu Zeichensalat. Stattdessen die Textmarken oben verwenden.
+  Zeichen wie ⏰ ⚠ ☀ ✓ sowie Umlaute funktionieren. In E-Mails (HTML) und
+  Kalendertiteln sind Emojis in Ordnung.
+- Drive-Dateien lassen sich nicht bearbeiten: neue Version anlegen und die alte
+  in den Papierkorb legen.
