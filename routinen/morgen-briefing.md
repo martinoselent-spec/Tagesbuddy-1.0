@@ -1,4 +1,4 @@
-# Routine: Morgen-Briefing (täglich ~7:00 Europe/Berlin)
+# Routine: Morgen-Briefing (täglich 6:35 Europe/Berlin)
 
 Diese Datei beschreibt, was die geplante Aufgabe jeden Morgen tut. Der Text der
 geplanten Aufgabe selbst ist eine Kopie dieser Schritte, ergänzt um die private

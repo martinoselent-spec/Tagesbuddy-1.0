@@ -13,7 +13,7 @@ Morgen von selbst läuft.
 ```
  Gmail ─┐                         ┌─► Morgen-Briefing (E-Mail an mich)
  Outlook┤                         ├─► Push-Nachricht aufs Handy (wenn dringend)
- Google ├─► Claude (täglich ~7:00) ┼─► Fristen als Kalendertermine mit Erinnerung
+ Google ├─► Claude (täglich 6:35)   ┼─► Fristen als Kalendertermine mit Erinnerung
  Kalender                         ├─► Antwort-ENTWÜRFE (nie selbst gesendet)
  Drive ─┘          ▲              └─► Gedächtnis aktualisieren
                    │                        │
@@ -43,7 +43,7 @@ Morgen von selbst läuft.
 
 ## Benutzen
 
-- **Automatisch:** Jeden Morgen gegen 7 Uhr kommt das Briefing per Mail und Push.
+- **Automatisch:** Jeden Morgen um 6:35 Uhr (Europe/Berlin) startet die geplante Aufgabe „Tagesbuddy Morgen-Briefing“. Gegen 7 Uhr ist das Briefing per Mail und Push da.
 - **Etwas merken lassen:** Schreib es in `Tagesbuddy – Meine Notizen` in Drive,
   z. B. `Bis 15.12. Steuererklärung abgeben` – beim nächsten Lauf wird daraus
   eine Aufgabe mit Frist und Kalendererinnerung.
