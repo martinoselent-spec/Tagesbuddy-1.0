@@ -13,7 +13,7 @@ Morgen von selbst läuft.
 ```
  Gmail ─┐                         ┌─► Morgen-Briefing (E-Mail an mich)
  Outlook┤                         ├─► Push-Nachricht aufs Handy (wenn dringend)
- Google ├─► Claude (täglich 6:35)   ┼─► Fristen als Kalendertermine mit Erinnerung
+ Google ├─► Claude (täglich 6:35)  ┼─► Fristen als Kalendertermine mit Erinnerung
  Kalender                         ├─► Antwort-ENTWÜRFE (nie selbst gesendet)
  Drive ─┘          ▲              └─► Gedächtnis aktualisieren
                    │                        │
