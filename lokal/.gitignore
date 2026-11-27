@@ -1,0 +1,8 @@
+# Geheimnisse und persönliche Daten – niemals ins (öffentliche) Repo!
+config.toml
+credentials.json
+token.json
+logs/
+.venv/
+__pycache__/
+*.pyc

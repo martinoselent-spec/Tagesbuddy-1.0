@@ -1,0 +1,48 @@
+# Tagesbuddy Lokal – Konfiguration
+# Kopiere diese Datei nach "config.toml" (gleicher Ordner) und trage deine Werte ein.
+# config.toml, credentials.json und token.json NIEMALS ins Git-Repo hochladen
+# (sie stehen in .gitignore).
+
+[nutzer]
+# Deine Gmail-Adresse. An diese – und NUR an diese – Adresse schickt Tagesbuddy Mails.
+email = "dein.name@gmail.com"
+anrede = "Hallo"            # z. B. "Hallo Alex"
+zeitzone = "Europe/Berlin"
+
+[ollama]
+# Läuft Tagesbuddy auf demselben PC wie Ollama: http://localhost:11434
+# Läuft er auf einem anderen Gerät im Tailscale-Netz: http://<tailscale-ip>:11434
+url = "http://localhost:11434"
+# Modell mit gutem Deutsch und JSON-Ausgabe. Empfehlungen je nach Grafikkarte:
+#   8 GB VRAM:  "qwen2.5:7b-instruct"
+#  12 GB VRAM:  "qwen2.5:14b-instruct"
+#  24 GB VRAM:  "qwen2.5:32b-instruct"
+modell = "qwen2.5:14b-instruct"
+kontext = 8192              # Tokens pro Anfrage (num_ctx)
+timeout_sekunden = 300
+
+[google]
+# Ordner-ID des Drive-Ordners "Tagesbuddy" (steht in der URL des Ordners).
+ordner_id = ""
+# Dateinamen im Ordner (werden automatisch gesucht bzw. angelegt).
+gedaechtnis_titel = "Tagesbuddy – Gedächtnis"
+notizen_titel = "Tagesbuddy – Meine Notizen"
+daten_titel = "Tagesbuddy – Daten.json"
+briefings_ordner_titel = "Briefings"
+kalender_id = "primary"
+
+[verhalten]
+# Beim allerersten Lauf so viele Tage zurück lesen.
+erster_lauf_tage = 14
+# Höchstens so viele Mails pro Lauf auswerten (schont die Grafikkarte).
+max_mails = 60
+# Antwort-Entwürfe in Gmail anlegen, wenn eine Mail eine Antwort erwartet?
+entwuerfe = true
+# Fristen und Termine automatisch in den Google Kalender eintragen?
+kalender_eintragen = true
+
+[push]
+# Optional: Push aufs Handy über ntfy (kostenlose App "ntfy").
+# Thema frei wählen, z. B. "tagesbuddy-<zufällige-zeichen>". Leer = aus.
+ntfy_thema = ""
+ntfy_server = "https://ntfy.sh"

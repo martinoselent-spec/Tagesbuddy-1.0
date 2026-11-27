@@ -4,7 +4,20 @@ Ein „zweites Gedächtnis“, das proaktiv arbeitet: Es liest E-Mails, Kalender
 Dokumente, erkennt Termine, Aufgaben und Fristen, merkt sich alles und erinnert
 rechtzeitig daran.
 
-Tagesbuddy ist **keine eigene App**. Es ist eine Arbeitsanweisung für Claude, das
+Es gibt zwei Varianten, die dasselbe Gedächtnis in Google Drive nutzen:
+
+| | **Cloud** (dieser Ordner) | **Lokal** ([`lokal/`](lokal/README.md)) |
+|---|---|---|
+| KI | Claude, geplante Aufgabe auf claude.ai | Dein eigenes LLM über Ollama auf dem PC |
+| Kosten | Claude-Abo | Strom, sonst kostenlos |
+| Läuft | in der Cloud, PC kann aus sein | auf dem PC (Windows-Aufgabenplanung) |
+| Konten | Connectoren (Gmail, Outlook, Kalender, Drive) | Google-API; Outlook per Weiterleitung an Gmail |
+| Stärke | versteht auch komplizierte Schreiben sehr gut | unabhängig; strenge Code-Prüfung jeder Frist |
+
+> Lass immer nur **eine** Variante täglich laufen, sonst überschreiben sie sich
+> gegenseitig das Gedächtnis.
+
+Die Cloud-Variante ist **keine eigene App**. Sie ist eine Arbeitsanweisung für Claude, das
 über Connectoren auf die Konten zugreift und als **geplante Aufgabe** jeden
 Morgen von selbst läuft.
 
